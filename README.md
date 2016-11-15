@@ -25,11 +25,11 @@ TIDAK ADA
 
 <h2>Catatan</h2>
 
-<h4>Apa itu CodeIgniter?</h4>
+<h3>Apa itu CodeIgniter?</h3>
 <p>
 	<b>CodeIgniter</b> adalah sebuah framework php yang bersifat open source dan menggunakan metode MVC (Model, View, Controller). 
 </p>
-<h4>Apa itu metode MVC?</h4>
+<h3>Apa itu metode MVC?</h3>
 <p>
 	<b>MVC</b> adalah sebuah metode pembagian proses menjadi tiga bagian Model, View, dan Controller. 
 	<ul>
@@ -37,12 +37,12 @@ TIDAK ADA
 		<li>View merupakan sekumpulan modul yang berisi fungsi membaca data, mengubah data, menambah data, dan menghapus data.</li>
 	</ul>
 </p>
-<h4>Bagaimana cara menggunakan CodeIgniter?</h4>
-<h4>Apa itu AJAX?</h4>
-<h4>Bagaimana cara menggunakan CodeIgniter?</h4>
-<h4>Apa itu datatables?</h4>
-<h4>Bagaimana cara menggunakan CodeIgniter?</h4>
-<h4>Apa itu bootstrap?</h4>
-<h4>Bagaimana cara menggunakan CodeIgniter?</h4>
-<h4>Apa itu AdminLTE?</h4>
-<h4>Bagaimana cara menggunakan AdminLTE?</h4>
+<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
+<h3>Apa itu AJAX?</h3>
+<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
+<h3>Apa itu datatables?</h3>
+<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
+<h3>Apa itu bootstrap?</h3>
+<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
+<h3>Apa itu AdminLTE?</h3>
+<h3>Bagaimana cara menggunakan AdminLTE?</h3>
