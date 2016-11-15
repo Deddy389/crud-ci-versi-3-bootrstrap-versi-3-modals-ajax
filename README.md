@@ -29,12 +29,13 @@ TIDAK ADA
 <p>
 	<b>CodeIgniter</b> adalah sebuah framework php yang bersifat open source dan menggunakan metode MVC (Model, View, Controller). 
 </p>
-<h4>Apa itu metode Model, View,dan Controller?</h4>
+<h4>Apa itu metode MVC?</h4>
 <p>
 	<b>MVC</b> adalah sebuah metode pembagian proses menjadi tiga bagian Model, View, dan Controller. 
 	<ul>
 		<li>Model merupakan sekumpulan modul yang berisi fungsi membaca data, mengubah data, menambah data, dan menghapus data.</li>
 		<li>View merupakan sekumpulan modul yang berisi fungsi membaca data, mengubah data, menambah data, dan menghapus data.</li>
+	</ul>
 </p>
 <h4>Bagaimana cara menggunakan CodeIgniter?</h4>
 <h4>Apa itu AJAX?</h4>
