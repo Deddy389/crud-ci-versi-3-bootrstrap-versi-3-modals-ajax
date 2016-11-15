@@ -1,8 +1,3 @@
-<style>
-h4{
-	color:red;
-}
-</style>
 <h2>Proyek</h2>
 CRUD_CI_Bootrstrap_Modals_AJAX
 <h2>Pemilik</h2>
@@ -40,3 +35,5 @@ TIDAK ADA
 <h4>Bagaimana cara menggunakan codeignater?</h4>
 <h4>Apa itu AdminLTE?</h4>
 <h4>Bagaimana cara menggunakan AdminLTE?</h4>
+<pre>
+</pre>
