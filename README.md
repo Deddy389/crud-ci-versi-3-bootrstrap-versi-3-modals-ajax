@@ -104,11 +104,13 @@ TIDAK ADA
 </p>	
 <h2>FQA</h2>
 <h3>Hal-hal apa saja yang harus saya perhatikan untuk memahami project ini?</h3>
+<p>
 	<ul>
 		<li>Kamu harus tahu apa itu codeIgniter.</li>
 		<li>Kamu harus tahu apa itu metode MVC.</li>
 		<li>Kamu harus tahu bagaimana cara menggunakan/menginstall codeIgniter.</li>
 	</ul>
+</p>
 <h3>Apa itu CodeIgniter?</h3>
 <p>
 	<b>CodeIgniter</b> adalah sebuah framework php yang bersifat open source dan menggunakan metode MVC (Model, View, Controller). 
