@@ -21,6 +21,64 @@ TIDAK ADA
 
 <h2>Struktur file dan folder pada proyek ini</h2>
 <ul>
+	<li>application
+		<ul>
+			<li>cache</li>
+			<li>config
+				<ul>
+					<li>autoload.php</li>
+					<li>config.php</li>
+					<li>constants.php</li>
+					<li>database.php</li>
+					<li>doctypes.php</li>
+					<li>foreign_chars.php</li>
+					<li>hooks.php</li>
+					<li>index.html</li>
+					<li>memcached.php</li>
+					<li>migration.php</li>
+					<li>mimes.php</li>
+					<li>profiler.php</li>
+					<li>routes.php</li>
+					<li>smileys.php</li>
+					<li>user_agents.php</li>
+				</ul>
+			</li>
+			<li>controllers
+				<ul>
+					<li>Anggota.php</li>
+					<li>index.html</li>
+				</ul>
+			</li>
+			<li>core</li>
+			<li>helpers</li>
+			<li>hooks</li>
+			<li>index.html</li>
+			<li>language</li>
+			<li>libraries</li>
+			<li>logs</li>
+			<li>models
+				<ul>
+				</ul>
+			</li>
+			<li>third_party</li>
+			<li>views</li>
+		</ul>
+	</li>
+	<li>assets
+		<ul>
+			<li>bootstrap</li>
+			<li>dist</li>
+			<li>plugins</li>
+		</ul>
+	</li>
+	<li>database
+		<ul>
+			<li>db_anggota.sql</li>
+		</ul>
+	</li>
+	<li>index.php</li>
+	<li>README.md</li>
+	<li>system</li>
 </ul>
 
 <h2>Catatan</h2>
