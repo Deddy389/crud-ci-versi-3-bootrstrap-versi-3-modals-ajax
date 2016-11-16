@@ -103,6 +103,38 @@ TIDAK ADA
 	</pre>
 </p>	
 <h2>FQA</h2>
+<h3>Apa yang harus saya lakukan untuk mencoba project ini?</h3>
+<p>
+	<ul>
+		<li>Kamu harus download project ini, ekstrak dan simpan di dalam folder htdocs/www.</li>
+		<li>Buat database dengan nama db_anggota.</li>
+		<li>Import file database db_anggota.sql yang ada pada folder database.</li>
+		<li>Buat file .htaccess pada root project.</li>
+		<li>Berikut isi dari file .htaccess tersebut:
+			<pre>
+				RewriteEngine on
+				RewriteCond $1 !^(assets)
+				RewriteRule ^(.*)$ index.php [L]
+				RewriteCond $1 !^(index.php|assets)
+				RewriteRule ^(.*)$ index.php/$1 [L]
+			</pre>
+		</li>
+		<li>Ubah setting koneksi database pada file database.php yang ada pada path /application/config/. Ubah pada poin:
+			<pre>
+				'hostname' => 'localhost',
+				'username' => 'root',
+				'password' => '',
+				'database' => 'db_anggota',
+			</pre>
+		</li>
+		<li>Jika kamu mengubah nama folder project ini silahkan ganti setting base_url pada file config.php yang letaknya di path /application/config/
+			<pre>
+				$config['base_url'] = 'localhost/CRUD_CI_Bootrstrap_Modals_AJAX/';
+			</pre>
+		</li>
+	</ul>
+</p>
+
 <h3>Hal-hal apa saja yang harus saya perhatikan untuk memahami project ini?</h3>
 <p>
 	<ul>
