@@ -107,14 +107,15 @@ TIDAK ADA
 	</ul>
 </p>
 <h3>Bagaimana cara menggunakan/menginstall CodeIgniter?</h3>
-	<p>
-		Cara menggunakan/menginstall CodeIgniter sangat mudah. 
-		<ul>
-			<li>Lalu ekstrak dan ubah nama folder menjadi CI agar mudah diakses nama projectnya pada browser.</li>
-			<li>Setelah itu pindahkan project / folder CI ke dalam folder htdocs atau www.</li>
-			<li>Akses project pada browser dengan mengetik <i>http://localhost/CI</i></li>
-		</ul>
-	</p>
+<p>
+	Cara menggunakan/menginstall CodeIgniter sangat mudah. 
+	<ul>
+		<li>Download project <a href="https://codeload.github.com/bcit-ci/CodeIgniter/zip/3.1.2">ini</a>.</li>
+		<li>Lalu ekstrak dan ubah nama folder menjadi CI agar mudah diakses nama projectnya pada browser.</li>
+		<li>Setelah itu pindahkan project / folder CI ke dalam folder htdocs atau www.</li>
+		<li>Akses project pada browser dengan mengetik <i>http://localhost/CI</i></li>
+	</ul>
+</p>
 <h3>Apa itu AJAX?</h3>
 <h3>Bagaimana cara menggunakan CodeIgniter?</h3>
 <h3>Apa itu datatables?</h3>
