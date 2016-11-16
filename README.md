@@ -14,6 +14,7 @@ TIDAK ADA
 	<li>Dikembangkan dengan menggunakan CodeIgniter Versi 3.1.2</li>
 	<li>Menggunakan modal dialog untuk form tambah, ubah, dan hapus.</li>
 	<li>Menggunakan Ajax untuk proses penerimaan dan pengiriman data ke server.</li>
+	<li>Alert menggunakan sweetalert.js.</li>
 	<li>Menampilkan data pada tabel menggunakan datatables server side.</li>
 	<li>Sebelum memasukan data kedalam datatables, data diubah dalam bentu json.</li>
 	<li>Proyek ini menggunakan template bootstrap dan adminLTE.</li>
@@ -26,10 +27,10 @@ TIDAK ADA
 			<li>cache</li>
 			<li>config
 				<ul>
-					<li>autoload.php</li>
-					<li>config.php</li>
+					<li><b>autoload.php</b> : file pengaturan library apa saja yang secara otomatis akan di load saat sistem berjalan.</li>
+					<li><b>config.php</b>: file pengaturan sistem untuk base url, dsb.</li>
 					<li>constants.php</li>
-					<li>database.php</li>
+					<li><b>database.php</b>: file pengaturan koneksi dengan database.</li>
 					<li>doctypes.php</li>
 					<li>foreign_chars.php</li>
 					<li>hooks.php</li>
@@ -38,14 +39,14 @@ TIDAK ADA
 					<li>migration.php</li>
 					<li>mimes.php</li>
 					<li>profiler.php</li>
-					<li>routes.php</li>
+					<li><b>routes.php</b>: file pengaturan routing sistem.</li>
 					<li>smileys.php</li>
 					<li>user_agents.php</li>
 				</ul>
 			</li>
 			<li>controllers
 				<ul>
-					<li>Anggota.php</li>
+					<li><b>Anggota.php</b> : file controller yang mengatur proses / logic dari proses CRUD data pada tabel anggota</li>
 					<li>index.html</li>
 				</ul>
 			</li>
@@ -58,13 +59,21 @@ TIDAK ADA
 			<li>logs</li>
 			<li>models
 				<ul>
+					<li><b>Anggota_model.php</b> : file model Anggota yang berisi fungsi insert, update, select, dan delete data pada tabel anggota.</li>
+					<li>index.html</li>
 				</ul>
 			</li>
 			<li>third_party</li>
-			<li>views</li>
+			<li>views
+				<ul>
+					<li><b>anggota_view.php</b> : file view yang berisi tampilan user interface untuk CRUD data anggota.</li>
+					<li>errors</li>
+					<li>index.html</li>
+				</ul>
+			</li>
 		</ul>
 	</li>
-	<li>assets
+	<li><b>assets</b> : folder ini berisi file-file css dan js yang digunakan oleh sistem.
 		<ul>
 			<li>bootstrap</li>
 			<li>dist</li>
@@ -73,7 +82,7 @@ TIDAK ADA
 	</li>
 	<li>database
 		<ul>
-			<li>db_anggota.sql</li>
+			<li><b>db_anggota.sql</b> : file database yang digunakan oleh sistem.</li>
 		</ul>
 	</li>
 	<li>index.php</li>
