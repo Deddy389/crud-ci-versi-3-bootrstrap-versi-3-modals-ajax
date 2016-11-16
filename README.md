@@ -28,9 +28,9 @@ TIDAK ADA
 			<li>config
 				<ul>
 					<li><b>autoload.php</b> : file pengaturan library apa saja yang secara otomatis akan di load saat sistem berjalan.</li>
-					<li><b>config.php</b>: file pengaturan sistem untuk base url, dsb.</li>
+					<li><b>config.php</b> : file pengaturan sistem untuk base url, dsb.</li>
 					<li>constants.php</li>
-					<li><b>database.php</b>: file pengaturan koneksi dengan database.</li>
+					<li><b>database.php</b> : file pengaturan koneksi dengan database.</li>
 					<li>doctypes.php</li>
 					<li>foreign_chars.php</li>
 					<li>hooks.php</li>
@@ -39,7 +39,7 @@ TIDAK ADA
 					<li>migration.php</li>
 					<li>mimes.php</li>
 					<li>profiler.php</li>
-					<li><b>routes.php</b>: file pengaturan routing sistem.</li>
+					<li><b>routes.php</b> : file pengaturan routing sistem.</li>
 					<li>smileys.php</li>
 					<li>user_agents.php</li>
 				</ul>
@@ -92,6 +92,7 @@ TIDAK ADA
 
 <h2>Catatan</h2>
 
+<h3>Hal-hal apa saja yang harus saya perhatikan untuk memahami project ini?</h3>
 <h3>Apa itu CodeIgniter?</h3>
 <p>
 	<b>CodeIgniter</b> adalah sebuah framework php yang bersifat open source dan menggunakan metode MVC (Model, View, Controller). 
@@ -101,10 +102,20 @@ TIDAK ADA
 	<b>MVC</b> adalah sebuah metode pembagian proses menjadi tiga bagian Model, View, dan Controller. 
 	<ul>
 		<li>Model merupakan sekumpulan modul yang berisi fungsi membaca data, mengubah data, menambah data, dan menghapus data.</li>
-		<li>View merupakan sekumpulan modul yang berisi fungsi membaca data, mengubah data, menambah data, dan menghapus data.</li>
+		<li>View merupakan sekumpulan modul yang berisi tampilan user interface dari suatu sistem.</li>
+		<li>Controller merupakan sekumpulan modul yang berisi logic / proses dari suatu sistem.</li>
 	</ul>
 </p>
-<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
+<h3>Bagaimana cara menggunakan/menginstall CodeIgniter?</h3>
+	<p>
+		Cara menggunakan/menginstall CodeIgniter sangat mudah. 
+		<ul>
+			<li>Download project <a href="https://codeload.github.com/bcit-ci/CodeIgniter/zip/3.1.2">ini</a>.</li>
+			<li>Lalu ekstrak dan ubah nama folder menjadi CI agar mudah diakses nama projectnya pada browser.</li>
+			<li>Setelah itu pindahkan project / folder CI ke dalam folder htdocs atau www.</li>
+			<li>Akses project pada browser dengan mengetik <i>http://localhost/CI</i></li>
+		</ul>
+	</p>
 <h3>Apa itu AJAX?</h3>
 <h3>Bagaimana cara menggunakan CodeIgniter?</h3>
 <h3>Apa itu datatables?</h3>
