@@ -88,11 +88,27 @@ TIDAK ADA
 	<li>index.php</li>
 	<li>README.md</li>
 	<li>system</li>
+	<li>.htaccess</li>
 </ul>
 
+<h2>Perhatian!</h2>
+<p>Pada project ini ada file .htaccess yang harus kalian buat. Posisi file .htaccess dapat kalian lihat pada struktur file dan folder.
+	Berikut isi dari file .htaccess tersebut:
+	<pre>
+		RewriteEngine on
+		RewriteCond $1 !^(assets)
+		RewriteRule ^(.*)$ index.php [L]
+		RewriteCond $1 !^(index.php|assets)
+		RewriteRule ^(.*)$ index.php/$1 [L]
+	</pre>
+</p>	
 <h2>FQA</h2>
-
 <h3>Hal-hal apa saja yang harus saya perhatikan untuk memahami project ini?</h3>
+	<ul>
+		<li>Kamu harus tahu apa itu codeIgniter.</li>
+		<li>Kamu harus tahu apa itu metode MVC.</li>
+		<li>Kamu harus tahu bagaimana cara menggunakan/menginstall codeIgniter.</li>
+	</ul>
 <h3>Apa itu CodeIgniter?</h3>
 <p>
 	<b>CodeIgniter</b> adalah sebuah framework php yang bersifat open source dan menggunakan metode MVC (Model, View, Controller). 
@@ -116,11 +132,3 @@ TIDAK ADA
 		<li>Akses project pada browser dengan mengetik <i>http://localhost/CI</i></li>
 	</ul>
 </p>
-<h3>Apa itu AJAX?</h3>
-<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
-<h3>Apa itu datatables?</h3>
-<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
-<h3>Apa itu bootstrap?</h3>
-<h3>Bagaimana cara menggunakan CodeIgniter?</h3>
-<h3>Apa itu AdminLTE?</h3>
-<h3>Bagaimana cara menggunakan AdminLTE?</h3>
