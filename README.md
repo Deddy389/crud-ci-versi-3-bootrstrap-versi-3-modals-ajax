@@ -1,5 +1,5 @@
 <h2>Proyek</h2>
-CRUD_CI_Bootrstrap_Modals_AJAX
+crud-ci-bootrstrap-modals-ajax
 <h2>Pemilik</h2>
 Gita Citra Puspita
 <h2>Dibuat Pada</h2>
